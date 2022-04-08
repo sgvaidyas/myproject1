@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+#menu ul li{
+    float: left;
+    width: 20%;
+    list-style: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+#logo
+{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+#menu
+{
+    margin-left: 20%;
+    width: 60%;
+    float: left;
+}
+/* 23-02 content is here below */
+#cont1
+{
+    width: 100%;
+    height: 450px;
+    background-color: crimson;
+}
+.cont1_diva, .cont1_divb
+{   
+    color: beige;
+    /*  margin: top/bottom  left/right*/    
+    height:300px;
+    float: left;
+    text-align: justify;
+}
+.cont1_diva
+{
+    width: 50%;
+    margin: 75px 5%;
+    padding: 0 2%;
+}
+.cont1_divb
+{
+    width: 26%;
+    margin: 75px 5%;
+}
+.btn
+{
+    background-color: beige;
+    color: crimson;
+    height:50px;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.img_cont1
+{
+    text-align: right;
+}
+
+#cont2
+{
+    width: 100%;
+    height:400px;
+    background-color: coral;
+}
+.divs_2
+{
+    width: 18%;
+    float: left;
+    height: 300px;
+    background-color: darkcyan;
+    margin-top: 50px;
+    padding: 0 1%;
+    text-align: justify;
+}
+.ml_10
+{
+    margin-left:10% ;
+}
+.mr_10
+{
+    margin-right:10% ;
+}
+.mrl_10
+{
+    margin-left:10% ;
+    margin-right:10% ;
+}
+.divs_2 img
+{
+    display: block;
+    margin: 0 auto;
+}
